@@ -23,6 +23,7 @@ return new class extends Migration
             $table->boolean('on_time');
             $table->boolean('cancelled');
             $table->timestamps();
+            
         });
     }
 
